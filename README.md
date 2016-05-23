@@ -6,9 +6,9 @@ Using Ruby, create a program that from the command line takes 2 arguments, book 
 (For API access I would suggest looking at the RestClient library here: https://github.com/rest-client/rest-client . Although there are other options, feel free to use what you think is best.)
 
 Example:
-ruby bookshout_price_fetcher.rb 44990 .0825
+```ruby bookshout_price_fetcher.rb 44990 .0825```
 Would return:
-Deception - $7.57
+```Deception - $7.57```
 
 You can use our API here:
 https://www.bookshout.com/api/books/44990.json

@@ -1,6 +1,6 @@
 # bookshout-interview-questions
 
-1. BookShout API Request / Parse
+## 1. BookShout API Request / Parse
 Using Ruby, create a program that from the command line takes 2 arguments, book id and a tax rate. And return the total price of the book with tax.
 
 (For API access I would suggest looking at the RestClient library here: https://github.com/rest-client/rest-client . Although there are other options, feel free to use what you think is best.)
@@ -16,7 +16,7 @@ Where 44990 is the book id.
 
 Here are some example book ids: 44990, 44991,44992, etc.
 
-2. CSV Parse
+## 2. CSV Parse
 Using Ruby and given a CSV file with 2 columns and n rows and NO HEADER rows, where the first column is a book title, and the second column is a price. Write a program that takes the path to the csv and return the following information:
 
 Most expensive book,
@@ -36,7 +36,7 @@ Average Book Price: 2.00
 
 I would suggest using this documentation: http://ruby-doc.org/stdlib-1.9.2/libdoc/csv/rdoc/CSV.html
 
-3. Stack Implementation
+## 3. Stack Implementation
 Using Java create a stack data structure using an array implementation. This video should help you, https://www.youtube.com/watch?v=sFVxsglODoo
 The structure should follow standard stack ADT operations: push, pop, top, isEmpty. 
 

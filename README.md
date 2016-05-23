@@ -3,7 +3,7 @@
 ## 1. BookShout API Request / Parse
 Using Ruby, create a program that from the command line takes 2 arguments, book id and a tax rate. And return the total price of the book with tax.
 
-(For API access I would suggest looking at the RestClient library here: https://github.com/rest-client/rest-client . Although there are other options, feel free to use what you think is best.)
+(For API access I would suggest looking at the RestClient library here: https://github.com/rest-client/rest-client . Although there are other options, feel free to use what you think is best.)  The return from the api will be JSON so parsing JSON is a must but ruby fortunately has an included JSON parser -> http://stackoverflow.com/questions/5410682/parsing-a-json-string-in-ruby
 
 Example:
 ```ruby bookshout_price_fetcher.rb 44990 .0825```
